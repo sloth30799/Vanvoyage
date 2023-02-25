@@ -14,7 +14,7 @@ export default function Header() {
     
     return (
         <header>
-            <Link className="site-logo" to="/">#VanLife</Link>
+            <Link className="site-logo" to="/">#VANVOYAGE</Link>
             <nav>
                 <NavLink 
                     to="host"
@@ -36,7 +36,7 @@ export default function Header() {
                 </NavLink>
                 <Link to="login" className="login-link">
                     <img 
-                        src="/assets/images/avatar-icon.png" 
+                        src="../assets/images/avatar-icon.png" 
                         className="login-icon"
                     />
                 </Link>
